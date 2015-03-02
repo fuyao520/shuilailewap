@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.infotitlerecommend_box{ color:#c30; border-top:1px dotted #eee;}
+.infotitlerecommend_box a{ color:#c30; }
+.infotitlerecommend_box .delx{ font-style:inherit; color:#999; font-size:12px; cursor:pointer; margin-right:8px;}
+
+.img08 img{ max-width:100px; max-height:50px; border:1px solid #ccc;padding:2px;}
+
+a.but2{ display:inline-block;}

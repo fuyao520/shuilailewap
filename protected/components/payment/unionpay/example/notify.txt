@@ -1,0 +1,25 @@
+Exception::__set_state(array(
+   'message' => 'No signature Or signMethod set in notify data!',
+   'string' => '',
+   'code' => 0,
+   'file' => 'D:\\AppServ\\www\\fandian.com\\common\\payment\\unionpay\\quickpay_service.php',
+   'line' => 115,
+   'trace' => 
+  array (
+    0 => 
+    array (
+      'file' => 'D:\\AppServ\\www\\fandian.com\\common\\payment\\unionpay\\example\\back_notify.php',
+      'line' => 6,
+      'function' => 'quickpay_service',
+      'class' => 'quickpay_service',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 
+        array (
+        ),
+        1 => 3,
+      ),
+    ),
+  ),
+))

@@ -1,0 +1,1 @@
+<div class="foot-box">@copyright 2014 版权所有 <?php echo Yii::app()->params['basic']['sitename'];?></div>

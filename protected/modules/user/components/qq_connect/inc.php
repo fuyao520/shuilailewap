@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"100483003","appkey":"969fffe85babe445d32a798e093e15d4","callback":"http://shuilaile.izfei.com/user/post/qqLoginBack","scope":"get_user_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test"}

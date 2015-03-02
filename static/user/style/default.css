@@ -1,0 +1,218 @@
+.regmain { overflow:hidden; height:auto; background:url(../images/body.jpg); width:100%; padding:20px 0px;}
+.regmain .main { overflow:hidden; height:auto; width:1001px; margin:0 auto;}
+.regmain .main .bzzx { overflow:hidden; height:auto;}
+.regmain .main .bzzx .bzzx_left { width:170px; float:left; height:auto; overflow:hidden;}
+.regmain .main .bzzx .bzzx_left dt { height:36px; line-height:36px; background:#12549e;}
+.regmain .main .bzzx .bzzx_left dd { height:auto; overflow:hidden; border:1px solid #cdcbcc; border-top:0px; padding-bottom:100px;}
+.regmain .main .bzzx .bzzx_left dt h2 { font-size:16px; color:#FFFFFF; padding-left:10px;}
+.regmain .main .bzzx .bzzx_left .dbt { overflow:hidden; height:35px; line-height:35px; background:#f3f3f3;}
+.regmain .main .bzzx .bzzx_left .dbt h2 { font-size:16px; margin-left:20px; color:#323335;}
+.regmain .main .bzzx .bzzx_left .list { height:46px; line-height:46px; background:url(../images/list.jpg) repeat-x center bottom; padding-left:20px; font-size:14px;}
+.regmain .main .bzzx .bzzx_left .list em { background:url(../images/user.png) no-repeat 0px -4px; width:21px; height:30px; float:left; margin-top:6px; margin-right:5px;}
+.regmain .main .bzzx .bzzx_left .list .sc { background:url(../images/user.png) no-repeat 0px -328px;}
+.regmain .main .bzzx .bzzx_left .list .xh { background:url(../images/user.png) no-repeat 0px -366px;}
+.regmain .main .bzzx .bzzx_left .list .pj { background:url(../images/user.png) no-repeat 0px -284px;}
+.regmain .main .bzzx .bzzx_left .list .jb { background:url(../images/user.png) no-repeat 0px -168px;}
+.regmain .main .bzzx .bzzx_left .list .mm { background:url(../images/user.png) no-repeat 0px -205px;}
+.regmain .main .bzzx .bzzx_left .list .sj { background:url(../images/user.png) no-repeat 0px -245px; height:25px; margin-top:10px;}
+.regmain .main .bzzx .help_rig { float:left; height:auto; overflow:hidden; width:790px; padding-left:20px;}
+.regmain .main .bzzx .help_rig .laction { height:40px; line-height:35px; color:#343436; background:url(../images/userdt.jpg?3) no-repeat center left;}
+.regmain .main .bzzx .help_rig .laction h2 { float:left; color:#333333; font-size:16px; font-variant:normal; margin-left:50px;}
+.regmain .main .bzzx .help_rig .laction h2 em { font-style:normal; font-size:14px; color:#ed1e24;}
+.regmain .main .bzzx .help_rig .laction span { float:right; margin-right:10px; color:#ed1e24;}
+.regmain .main .bzzx .help_rig .help_con { overflow:hidden; height:auto; line-height:200%; padding-top:10px; color:#333333;}
+.regmain .main .bzzx .help_rig .help_con .bdts { background:#ffffe5; border:1px solid #efe68b; height:35px; line-height:35px; overflow:hidden; padding-left:10px;}
+.regmain .main .bzzx .help_rig .help_con form { height:auto; overflow:hidden; margin-top:10px;}
+.regmain .main .bzzx .help_rig .help_con form table tr td { padding:5px; color:#666664;}
+.regmain .main .bzzx .help_rig .help_con form table tr td .inbg { width:180px; height:25px; line-height:25px; border:1px solid #cccccc; padding:0px 5px; background:#FFFFFF; color:#999999;}
+.regmain .main .bzzx .help_rig .help_con form table tr td span { color:#cccccc;}
+.regmain .main .bzzx .help_rig .help_con form table tr td select,.regmain .main .bzzx .help_rig .help_con form table tr td textarea{ border:1px solid #cccccc;}
+.regmain .main .bzzx .help_rig .help_con form table tr .fens { color:#ed1e24;}
+.regmain .main .bzzx .help_rig .help_con form table tr td .xgyx { color:#ed1e24;}
+.regmain .main .bzzx .help_rig .help_con form table tr td .yzyx { height:32px; line-height:32px; background:url(../images/uin.jpg) repeat-x; width:80px; color:#FFFFFF; font-size:14px; display:block; text-align:center; border:none;}
+.regmain .main .bzzx .help_rig .help_con form table tr td .hqyzm { height:32px; line-height:32px; background:url(../images/uin.jpg) repeat-x; width:130px; color:#FFFFFF; font-size:14px; display:block; text-align:center; background:#ed1e24; border:1px solid #ccc;}
+.regmain .main .bzzx .help_rig .help_con form table tr td .bdsj { background:#ed1e24; border:1px solid #ccc; height:32px; width:130px; color:#FFFFFF; font-size:14px; display:block; text-align:center; }
+
+.reg_foot { overflow:hidden; height:auto;}
+.reg_foot .foot_nav { height:40px;text-align:center; border-top:2px #ed1e24 solid ; width:100%; background:#353535;  line-height:40px; overflow:hidden; text-align:center; color:#FFFFFF; font-size:14px;}
+.reg_foot .foot_nav a { color:#FFFFFF; padding:0px 10px;}
+.reg_foot .copyright { background:#f2f2f2; text-align:center; padding:10px 0px;}
+
+.regmain .main .bzzx .help_rig .help_con .grxx { overflow:hidden; height:auto; background:#FFFFFF; border:1px solid #cccccc; padding:20px;}
+.regmain .main .bzzx .help_rig .help_con .grxx .img { float:left; height:auto; width:102px;}
+.regmain .main .bzzx .help_rig .help_con .grxx .img img { width:100px; height:100px; border:1px solid #cdcbcc;}
+.regmain .main .bzzx .help_rig .help_con .grxx .img em { display:block; font-style:normal; text-align:center; color:#333333;}
+.regmain .main .bzzx .help_rig .help_con .grxx .img em:hover { color:#ed1e24;}
+
+.regmain .main .bzzx .help_rig .help_con .grxx .rig_box { float:left; height:auto; overflow:hidden; width:620px; margin-left:20px;}
+.regmain .main .bzzx .help_rig .help_con .grxx .rig_box span { float:left; width:310px; height:35px; line-height:35px;}
+.regmain .main .bzzx .help_rig .help_con .grxx .rig_box span em { color:#0368c2; font-style:normal;}
+.regmain .main .bzzx .help_rig .help_con .grxx .rig_box .wdjf em { color:#ed1e24;}
+
+.regmain .main .bzzx .help_rig .help_con .ag_gg { border:1px solid #cccccc; height:auto; overflow:hidden; margin:10px 0px; padding:0px 10px; background:url(../images/gg.jpg) no-repeat 10px 0px #FFFFFF; padding-left:30px;}
+
+.regmain .main .bzzx .help_rig .help_con .zjlr { height:400px; overflow:hidden; position:relative;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli { float:left; border:1px solid #cccccc; border-bottom:0px; width:95px; height:29px; line-height:29px; text-align:center; color:#333333; margin-right:10px;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .on { background:#ed1e24; color:#FFFFFF; border:none; height:30px;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli h2 { font-size:12px; font-weight:normal; cursor:pointer; display:block;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul { position:absolute; top:30px; width:788px; background:#ffffff; left:0px; border:1px solid #cccccc; border-top:3px solid #ff0000;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li { float:left; height:auto; overflow:hidden; width:185px; height:auto; margin-left:10px; margin-top:10px; margin-bottom:10px;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li .img { width:185px; height:260px; overflow:hidden; display:block;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li .img img { width:185px; height:260px;}
+
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div { overflow:hidden; border-bottom:1px dashed #c5c5c5; height:28px; line-height:28px;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div span { float:left;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div .price { font-size:16px; color:#ed1e24;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div .yuanj { color:#acacac; text-decoration:line-through; margin-left:10px;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div .qg { float:right; width:40px; height:20px; line-height:20px; text-align:center; border:1px solid #cdcdcd; margin-top:3px;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div .qg:hover { background:#ed1e24; border:1px solid #ff005f; color:#FFFFFF;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li .title { display:block; height:25px; line-height:25px; overflow:hidden; width:185px; border-bottom:1px dashed #c5c5c5; text-align:left;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div .ysou { float:left;}
+.regmain .main .bzzx .help_rig .help_con .zjlr ul .bli ul li div .scfx { float:right;}
+
+.regmain .main .bzzx .help_rig .help_con .jfjl { border:1px solid #cccccc; background:#FFFFFF; height:auto; overflow:hidden; padding:15px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jftx_box { height:auto; overflow:hidden;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jftx_box .wdjf { float:left; height:auto; font-size:14px; color:#333333;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jftx_box .wdjf em { color:#666666; font-style:normal; font-size:12px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jftx_box .wdjf b { color:#ec1a5b;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jftx_box .jftx { float:left; width:246px; padding-left:15px; height:25px; line-height:25px; background:url(../images/jftx.jpg) no-repeat center; margin-left:10px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jftx_box .jftx em { font-style:normal; color:#ec1a5b;}
+
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box { overflow:hidden; height:200px; position:relative; margin-top:20px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .bli { float:left; width:88px; height:27px; line-height:27px; color:#333333;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .bli h2 { font-weight:normal; color:#333333; text-align:center; border:1px solid #cccccc; border-bottom:0px; cursor:pointer; font-size:12px; border-left:0px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .on h2 { border:none; background:#ec1a5b; color:#FFFFFF; height:28px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .bli ul { height:auto; overflow:hidden; width:758px; position:absolute; top:28px; left:0px; display:none;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .on ul { display:block;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .on ul .dbt { background:#f6f6f6; border:none;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .on ul li span { float:left; width:200px; padding-left:20px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .on ul li { height:auto; overflow:hidden; height:35px; line-height:35px;}
+.regmain .main .bzzx .help_rig .help_con .jfjl .jfmx_box ul .on ul li { border-bottom:1px dotted #e7e7e7;}
+.regmain .main .bzzx .help_rig .help_con .rhhdjf { overflow:hidden; height:auto; line-height:200%; color:#666666; margin-top:20px;}
+.regmain .main .bzzx .help_rig .help_con .rhhdjf a { color:#ec1a5b;}
+
+.regmain .main .bzzx .help_rig .help_con .wbbd_box { height:auto; overflow:hidden; margin-top:20px;}
+.regmain .main .bzzx .help_rig .help_con .wbbd_box li { overflow:hidden; height:auto; margin-bottom:20px;}
+.regmain .main .bzzx .help_rig .help_con .wbbd_box li .img { float:left;}
+.regmain .main .bzzx .help_rig .help_con .wbbd_box li .img img { float:left;}
+.regmain .main .bzzx .help_rig .help_con .wbbd_box li p { float:left; margin-left:20px; line-height:230%; font-size:14px;}
+.regmain .main .bzzx .help_rig .help_con .wbbd_box li p a { color:#1f97f5; text-decoration:underline;}
+.regmain .main .bzzx .help_rig .help_con .yqts { color:#666666;}
+
+.regmain .main .bzzx .help_rig .help_con .yxsz { border:1px solid #cccccc; background:#FFFFFF; height:auto; overflow:hidden; text-align:center; padding:20px; font-size:14px;}
+.regmain .main .bzzx .help_rig .help_con .yxsz .fsrz { display:block; width:82px; height:28px; line-height:28px; text-align:center; color:#FFFFFF; background:#ff7c00; margin:0 auto; margin-top:10px; }
+.regmain .main .bzzx .help_rig .help_con .yxsz .szyx { color:#002ef3;}
+
+.regmain .main .bzzx .help_rig .help_con .wsmyz { color:#999999; border:1px solid #cccccc; height:auto; margin-top:20px;}
+.regmain .main .bzzx .help_rig .help_con .wsmyz h2 { margin-top:-15px; background:url(../images/body.jpg); color:#333333; float:left; margin-left:20px; padding:0px 5px; font-size:14px; font-weight:normal;}
+.regmain .main .bzzx .help_rig .help_con .wsmyz p { padding:5px 20px; width:100%; height:auto; overflow:hidden;}
+
+.regmain .main .bzzx .help_rig .help_con form textarea { border:1px solid #ed1e24; color:#b8b6b6; width:768px; background:#FFFFFF; padding:10px;}
+.regmain .main .bzzx .help_rig .help_con .pishangc { border:1px dashed #ed1e24; background:#fff3f8; overflow:hidden; height:auto; margin-top:10px; padding:10px 0px;}
+.regmain .main .bzzx .help_rig .help_con .pishangc li { float:left; height:115px; width:115px; border:1px solid #cccccc; margin-left:10px; background:#ffffff; text-align:center; cursor:pointer;}
+.regmain .main .bzzx .help_rig .help_con .pishangc li span { display:block; margin:0 auto; color:#FFFFFF; margin-top:50px; background:#ba88b9; width:104px; height:22px; line-height:22px;}
+
+.regmain .main .bzzx .help_rig .help_con .btn06 { width:167px; height:30px; background:url(../images/dr.jpg) no-repeat center; text-align:center; color:#FFFFFF; font-size:14px; border:none; margin-top:10px;}
+
+.regmain .main .bzzx .help_rig .help_con .wdfb { height:auto; overflow:hidden; margin-top:20px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb ul .bli { float:left; width:75px; height:24px; line-height:24px; text-align:center; color:#333333; border:1px solid #d5d5d5; margin-right:10px; background:#f1f1f1; border-bottom:none;}
+.regmain .main .bzzx .help_rig .help_con .wdfb ul .bli h2 { font-size:12px; font-weight:normal; cursor:pointer;}
+.regmain .main .bzzx .help_rig .help_con .wdfb ul .on h2 { background:#FFFFFF; height:25px; z-index:999; position:relative;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul { overflow:hidden; height:auto; background:#FFFFFF; width:788px; border:1px solid #dddddd; padding-bottom:20px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li { height:auto; overflow:hidden;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .tbox { height:auto; overflow:hidden; margin:20px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .tbox .title { float:left; font-size:16px; font-weight:bold;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .tbox span { float:right; color:#666666;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .img_box { height:auto; overflow:hidden;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .img_box a { float:left; overflow:hidden; width:172px; height:190px; margin-left:20px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .img_box a img { width:172px; height:190px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box { overflow:hidden; height:auto; margin:20px; border-bottom:1px dashed #CCCCCC; padding-bottom:20px; margin-bottom:0px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .fxd { float:left; margin-left:6px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .fxd span { float:left; color:#666666;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .fxd a { float:left; height:16px; background:url(../images/fxd.png) no-repeat center top; padding-left:20px; margin:4px 0px 0px 5px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .fxd .kj { background:url(../images/fxd.png) no-repeat 0px -41px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .fxd .tx { background:url(../images/fxd.png) no-repeat 0px -84px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .lr { float:right;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .lr span { float:left; margin-right:1px; background:url(../images/xh.jpg) no-repeat center left; padding-left:28px; padding-right:8px; color:#666666;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .lr .xh { background:url(../images/xh.jpg) no-repeat -82px 1px;}
+.regmain .main .bzzx .help_rig .help_con .wdfb .bul li .wdfb_fxd_box .lr .hf { background:url(../images/xh.jpg) no-repeat -148px 1px;}
+
+.regmain .main .bzzx .help_rig .help_con .sdbz_box { overflow:hidden; height:auto; background:#FFFFFF;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li { overflow:hidden; height:auto; border-bottom:1px dashed #999999; margin:20px; padding-bottom:20px;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li span,.regmain .main .bzzx .help_rig .help_con .sdbz_box li div { float:left; width:120px; text-align:center;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li .spmc { width:380px;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box .dbt { background:#fff3f8; border:none; margin:0px; padding:0px 20px;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li .spmc .img { float:left; width:70px; height:70px; overflow:hidden;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li .spmc .img img { width:70px; height:70px;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li .spmc .title { float:left; color:#0368c2; margin:30px 0px 0px 20px;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li .rq { margin-top:30px;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box .dbt .rq { margin-top:0px;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li .sqj { margin-top:30px; color:#ed1e24; font-weight:bold;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box .dbt .sqj { margin-top:0px; color:#333333; font-weight:normal;}
+.regmain .main .bzzx .help_rig .help_con .sdbz_box li .cz a { display:block; color:#0368c2; height:30px; line-height:30px; margin-top:5px;}
+
+
+/*login*/
+.loregmain { padding:0px;}
+.loregmain .main { background:url(../images/img_footer.png) no-repeat center bottom; padding-bottom:120px; margin-top:20px;}
+.loregmain .main .box { border:1px solid #e9e8e6; background:#FFFFFF; padding:30px; overflow:hidden;}
+.regmain .main .box .userlogin { float:left; height:auto; overflow:hidden; width:450px;}
+.regmain .main .box .userlogin dt { height:30px; line-height:30px; border-left:3px solid #ed1e24; color:#000000; font-size:18px; padding-left:10px;}
+.regmain .main .box .userlogin dd { overflow:hidden; height:auto; padding:30px;}
+.regmain .main .box .userlogin dd form { overflow:hidden; height:auto;}
+.regmain .main .box .userlogin dd form table tr td { padding:5px;}
+.regmain .main .box .userlogin dd form .inbg { width:200px; height:30px; line-height:30px; border:1px solid #cccccc; padding:0px 5px;}
+.regmain .main .box .userlogin dd form .drok { width:167px; height:30px; line-height:30px; text-align:center; color:#FFFFFF; font-size:16px; background:url(../images/dr.jpg) no-repeat center; border:none; cursor:pointer;}
+.regmain .main .box .userlogin dd form .syxy { color:#999999;}
+.regmain .main .box .userlogin dd form .syxy a { color:#000000;}
+
+.regmain .main .box .log_rig { float:left; height:400px; overflow:hidden; border-left:1px solid #cccccc; text-align:center; width:400px; margin-left:80px;}
+.regmain .main .box .log_rig .zhzc { height:auto; overflow:hidden; color:#000000; height:27px; line-height:27px; margin-top:70px;}
+.regmain .main .box .log_rig .zhzc span { float:left; margin-left:120px;}
+.regmain .main .box .log_rig .zhzc a { float:left;}
+.regmain .main .box .log_rig .qitlog { overflow:hidden; height:auto;}
+.regmain .main .box .log_rig .qitlog span { display:block; margin:30px 0px;}
+
+.regmain .main .aqzx_zhmm { border:1px solid #e6e6e4; background:#FFFFFF; padding:20px;}
+.regmain .main .aqzx_zhmm dt { height:50px; line-height:50px; border-bottom:2px solid #ff5481;}
+.regmain .main .aqzx_zhmm dt h2 { font-size:16px; color:#000000; float:left;}
+.regmain .main .aqzx_zhmm dd { overflow:hidden; height:auto; color:#000000; padding:10px 0px;}
+.regmain .main .aqzx_zhmm dd .inbg { border:1px solid #cfcfcf; width:210px; height:30px; line-height:30px; padding:0px 5px; color:#a8a8a8;}
+.regmain .main .aqzx_zhmm dd table tr td { padding:5px;}
+.regmain .main .aqzx_zhmm dd .fsyj { width:167px; height:30px; line-height:30px; background:url(../images/dr.jpg) no-repeat center; color:#FFFFFF; text-align:center; border:none;}
+
+.regmain .main .aqzx_zhmm dd .fscg { font-size:14px; color:#007e00; overflow:hidden; height:auto;}
+.regmain .main .aqzx_zhmm dd .fscg img { margin-right:5px; margin-left:5px;}
+.regmain .main .aqzx_zhmm dd .fssb { color:#ff0101; font-size:14px; overflow:hidden; height:auto;}
+.regmain .main .aqzx_zhmm dd .fssb img { margin-right:5px; margin-left:5px;}
+
+
+.page { margin:15px; text-align:right; overflow:hidden; height:32px;}
+.page a { background: #f34b04; cursor: pointer; display: inline-block; line-height:20px;margin-right:15px; padding:0px 8px; color:#404040;}
+.page .current,.page a:hover { background:#f34b04; color: #FFFFFF; font-weight:normal; text-decoration:none;}
+
+.lotext{margin-left:10px;}
+
+.zfy{font-size:18px;font-weight:100;}
+
+
+/*表格列表显示样式*/
+.tb_list{border:1px solid #e8e8e8;width:100%; border-bottom:0px;}
+.tb_list tr:hover{background:#f6f4f4;}
+.tb_list tr th{height:40px;line-height:40px;background:#f6f6f6;border-bottom:1px solid #e8e8e8; text-align:center;font-size:16px;font-weight:100;}
+.tb_list tr td{line-height:200%;  border-bottom:1px solid #e8e8e8; text-align: center; padding:10px 5px;}
+.tb_list tr td.alignleft,.tb_list tr th.alignleft{ text-align:left; text-indent:10px;}
+.tb_list tr td input.ipt{margin:5px 0 5px 0;}
+.tb_list tr td.zc,.tb_list tr th.zc{ text-align:left;}
+
+/*编辑时候的表格*/
+.tb_up{background:#fff; margin-top:5px; cursor:default; border:1px solid #2E1920; border-bottom:none; width:100%;}
+.tb_up tr th{background:#f6f6f6; height:35px; line-height:35px;text-align:left;padding-left:5px; border-bottom:1px solid #2E1920; font-family:'宋体';font-size:16px;}
+.tb_up tr td{border-bottom:1px solid #2E1920; padding:0px;padding:5px; text-align:left; font-family:'宋体';}
+.tb_up tr td.zc{ text-align:left;}
+
+/*透明层编辑时候的表格*/
+.tb_up{background:#fff; margin-top:5px; cursor:default; border:1px solid #eee; border-bottom:none; width:100%;}
+.tb_up tr th{background:#f6f6f6; height:35px; line-height:35px;text-align:left;padding-left:5px; border-bottom:1px solid #eee; font-family:'宋体';}
+.tb_up tr td{border-bottom:1px solid #eee; padding:0px;padding:5px; text-align:left; font-family:'宋体';}
+.tb_up tr td.zctd{text-align:right;width:100px;}
