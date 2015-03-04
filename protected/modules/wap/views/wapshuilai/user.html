@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>ECSHOP模板堂 - Powered by ECTouch.cn 触屏版</title>
+<link rel="stylesheet" href="style/css/bootstrap.min.css">
+<link rel="stylesheet" href="style/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/css/ectouch.css">
+<link rel="stylesheet" href="style/css/user.css">
+<link rel="stylesheet" href="style/css/photoswipe.css">
+</head>
+
+<body>
+<div class="con">
+<div class="ect-bg">
+  <header class="ect-header ect-margin-tb ect-margin-lr text-center ect-bg icon-write"> <a href="javascript:history.go(-1)" class="pull-left ect-icon ect-icon1 ect-icon-history"></a> <span>个人中心</span> <a href="javascript:;" onClick="openMune()" class="pull-right ect-icon ect-icon1 ect-icon-mune"></a></header>
+  <nav class="ect-nav ect-nav-list" style="display:none;">
+    <ul class="ect-diaplay-box text-center">
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=index&a=index"><i class="ect-icon ect-icon-home"></i>首页</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=category&a=all"><i class="ect-icon ect-icon-cate"></i>分类</a></li>
+      <li class="ect-box-flex"><a href="javascript:openSearch();"><i class="ect-icon ect-icon-search"></i>搜索</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=flow&a=cart"><i class="ect-icon ect-icon-flow"></i>购物车</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=user&a=index"><i class="ect-icon ect-icon-user"></i>个人中心</a></li>
+    </ul>
+  </nav>
+</div><div class="user-info">
+  <div class="user-img pull-left"><i class="glyphicon glyphicon-user"></i></div>
+  <dl class="pull-left">
+    <dt>
+      <h4>fuyao520 | <a href="/index.php?m=default&c=user&a=logout" class="ect-colorf">退出</a></h4>
+    </dt>
+    <dd>您的等级是 注册用户 </dd>
+    <dd>0积分</dd>
+  </dl>
+  <span class="pull-right"><a href="/index.php?m=default&c=user&a=msg_list" class="ect-colorf">消息&nbsp;<i class="fa fa-envelope-o "></i></a></span></div>
+<section class="container-fluid user-nav">
+  <ul class="row ect-row-nav text-center">
+    <a href="/index.php?m=default&c=user&a=not_pay_order_list">
+    <li class="col-sm-3 col-xs-3"> <i class="glyphicon glyphicon-credit-card"></i>
+      <p class="text-center">未付款</p>
+    </li>
+    </a> <a href="/index.php?m=default&c=user&a=order_list">
+    <li class="col-sm-3 col-xs-3"> <i class="fa fa-file-text"></i>
+      <p class="text-center">全部订单</p>
+    </li>
+    </a> <a href="/index.php?m=default&c=user&a=address_list">
+    <li class="col-sm-3 col-xs-3"><i class="glyphicon glyphicon-map-marker"></i>
+      <p class="text-center">收货地址</p>
+    </li>
+    </a> <a href="/index.php?m=default&c=user&a=account_detail">
+    <li class="col-sm-3 col-xs-3"><i class="glyphicon glyphicon-usd"></i>
+      <p class="text-center">资金管理</p>
+    </li>
+    </a> <a href="/index.php?m=default&c=user&a=profile">
+    <li class="col-sm-3 col-xs-3"><i class="fa fa-user"></i>
+      <p class="text-center">个人中心</p>
+    </li>
+    </a> <a href="/index.php?m=default&c=user&a=edit_password">
+    <li class="col-sm-3 col-xs-3"><i class="fa fa-shield"></i>
+      <p class="text-center">修改密码</p>
+    </li>
+    </a> <a href="/index.php?m=default&c=user&a=service">
+    <li class="col-sm-3 col-xs-3"><i><img src="./images/u-kefu.png"></i>
+      <p class="text-center">客户服务</p>
+    </li>
+    </a> <a href="/index.php?m=default&c=user&a=share">
+    <li class="col-sm-3 col-xs-3"><i class="fa fa-share-alt"></i>
+      <p class="text-center">我的分享</p>
+    </li>
+    </a>
+  </ul>
+</section>
+<section class="user-tab ect-margin-tb ect-margin-bottom0"> 
+  
+  <ul class="nav nav-tabs text-center">
+    <li class="col-xs-4 active"><a href="#one" role="tab" data-toggle="tab">我的收藏</a></li>
+    <li class="col-xs-4"><a href="#two" role="tab" data-toggle="tab">我的评论</a></li>
+    <li class="col-xs-4"><a href="#three" role="tab" data-toggle="tab">浏览记录</a></li>
+  </ul>
+  
+  <div class="tab-content" id="gwc-tab-xq-bd">
+    <div class="tab-pane active ect-pro-list" id="one"> 
+            <p class="text-center ect-margin-tb ect-padding-tb">暂无数据</p>
+       
+    </div>
+    <div class="tab-pane ect-pro-list pinglun-list" id="two"> 
+            <p class="text-center ect-margin-tb ect-padding-tb">暂无数据</p>
+       
+    </div>
+    <div class="tab-pane ect-pro-list" id="three"> 
+       
+      <span class="pull-right ect-padding-lr ect-margin-tb ect-margin-bottom0">
+      <a href="/index.php?m=default&c=user&a=clear_history" class="history_clear del"><i class="glyphicon glyphicon-trash"></i> 清空</a></span>
+      <ul>
+                <li><a href="/index.php?m=default&c=goods&a=index&id=255"><img src="http://upfile.ecmoban.com/images/201410/thumb_img/255_thumb_G_1413252393792.png"></a>
+          <dl>
+            <dt>
+              <h4 class="title"><a href="/index.php?m=default&c=goods&a=index&id=255">【模板堂案例】一考通</a></h4>
+            </dt>
+            <dd class="dd-price"><span class="pull-left"><strong>价格：<b class="ect-colory">￥0元</b></strong><small class="ect-margin-lr"><del></del></small></span></dd>
+          </dl>
+        </li>
+                <li><a href="/index.php?m=default&c=goods&a=index&id=408"><img src="http://upfile.ecmoban.com/images/201409/thumb_img/408_thumb_G_1412040867989.png"></a>
+          <dl>
+            <dt>
+              <h4 class="title"><a href="/index.php?m=default&c=goods&a=index&id=408">大京东——最佳行业解决方案 最新升级版2.0</a></h4>
+            </dt>
+            <dd class="dd-price"><span class="pull-left"><strong>价格：<b class="ect-colory">￥98000元</b></strong><small class="ect-margin-lr"><del></del></small></span></dd>
+          </dl>
+        </li>
+                <li><a href="/index.php?m=default&c=goods&a=index&id=580"><img src="http://upfile.ecmoban.com/images/201501/thumb_img/580_thumb_G_1421695475742.png"></a>
+          <dl>
+            <dt>
+              <h4 class="title"><a href="/index.php?m=default&c=goods&a=index&id=580">ECSHOP模板堂顺风优选2015最新旗舰版+团购</a></h4>
+            </dt>
+            <dd class="dd-price"><span class="pull-left"><strong>价格：<b class="ect-colory">￥5500元</b></strong><small class="ect-margin-lr"><del></del></small></span></dd>
+          </dl>
+        </li>
+              </ul>
+       
+    </div>
+  </div>
+</section>
+</div>
+<div class="search" style="display:none;">
+  <div class="ect-bg">
+    <header class="ect-header ect-margin-tb ect-margin-lr text-center"><span>搜索</span><a href="javascript:;" onClick="closeSearch();"><i class="icon-close pull-right"></i></a></header>
+  </div>
+  <div class="ect-padding-lr">
+     <form action="/index.php?m=default&c=category&a=index"  method="post" id="searchForm" name="searchForm">
+      <div class="input-search"> <span>
+        <input name="keywords" type="search" placeholder="请输入搜索关键词！" id="keywordBox">
+        </span>
+        <button type="submit" value="搜索" onclick="return check('keywordBox')"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </form>
+        <div class="hot-search">
+      <p>
+      <h4 class="title"><b>热门搜索：</b></h4>
+      </p>
+       
+      <a href="/index.php?m=default&c=category&a=index&keywords=%E7%B1%B3%E5%A5%87%E6%A8%A1%E6%9D%BF+%E7%B1%B3%E5%A5%87%E7%AE%80%E6%B4%81%E7%89%88%E6%A8%A1%E6%9D%BF+ECSHOP%E6%A8%A1%E6%9D%BF%E5%A0%82%EF%BC%88www.ecmoban.com%EF%BC%89%E4%B8%93%E4%B8%9AECSHOP%E6%A8%A1%E6%9D%BF%E5%88%B6%E4%BD%9C+ECSHOP%E6%A8%A1%E6%9D%BF%E5%AE%9A%E5%88%B6_ECSHOP%E6%A8%A1%E6%9D%BF%E4%BF%AE%E6%94%B9_ECSHOP%E6%A8%A1%E6%9D%BF%E5%87%BA%E5%94%AE_ECSHOP%E6%A8%A1%E6%9D%BF%E6%A1%88%E4%BE%8B">米奇模板 米奇简洁版模板 ECSHOP模板堂（www.ecmoban.com）专业ECSHOP模板制作 ECSHOP模板定制_ECSHOP模板修改_ECSHOP模板出售_ECSHOP模板案例</a> 
+       
+    </div>
+     
+  </div>
+</div>
+ <a id="scrollUp" href="#top" style="position: fixed; z-index: 10;"><i class="fa fa-angle-up"></i></a>
+<style>
+#scrollUp {
+	border-radius:100%;
+	background-color: #777;
+	color: #eee;
+	font-size: 40px;
+	line-height: 1;text-align: center;text-decoration: none;bottom: 1em;right: 10px;overflow: hidden;width: 46px;
+	height: 46px;
+	border: none;
+	opacity: 0.6;
+}
+</style>
+
+<script type="text/javascript" src="style/js/jquery.min.js" ></script> 
+<script type="text/javascript" src="style/js/jquery.json.js" ></script> 
+<script type="text/javascript" src="style/js/common.js"></script> 
+<script type="text/javascript" src="style/js/jquery.more.js"></script> 
+<script type="text/javascript" src="style/js/utils.js" ></script> 
+<script src="style/js/ectouch.js"></script> 
+<script src="style/js/TouchSlide.js"></script> 
+<script src="style/js/simple-inheritance.min.js"></script> 
+<script src="style/js/code-photoswipe-1.0.11.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/js/jquery.scrollUp.min.js"></script> 
+<script type="text/javascript" src="style/js/validform.js" ></script> 
+
+<script language="javascript">
+	/*banner滚动图片*/
+		TouchSlide({
+			slideCell : "#focus",
+			titCell : ".hd ul", // 开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell : ".bd ul",
+			effect : "left",
+			autoPlay : true, // 自动播放
+			autoPage : true, // 自动分页
+			switchLoad : "_src" // 切换加载，真实图片路径为"_src"
+		});
+	/*弹出评论层并隐藏其他层*/
+	function openSearch(){
+		if($(".con").is(":visible")){
+			$(".con").hide();	
+			$(".search").show();
+		}
+	}
+	function closeSearch(){
+		if($(".con").is(":hidden")){
+			$(".con").show();	
+			$(".search").hide();
+		}
+	}
+</script> 
+ 
+<script type="text/javascript">
+    $(function(){
+        $(".del").click(function(){
+            if(!confirm('您确定要删除吗？')){
+                return false;
+            }
+            var obj = $(this);
+            var url = obj.attr("href");
+            $.get(url, '', function(data){
+                if(1 == data){
+                    if(obj.hasClass("history_clear")){
+                        obj.closest(".ect-pro-list").html("<p class='text-center  ect-margin-tb ect-padding-tb'>暂无浏览记录，点击<a href=/index.php?m=default&c=category&a=index class='ect-color ect-margin-lr' style='font-size:1.3em;'>进入</a>浏览商品</p>");
+                        obj.parent().siblings("ul").remove();
+                    } 
+                    else{
+                        if(obj.closest("li").siblings("li").length == 0){
+                            obj.closest("ul").html("<p class='text-center  ect-margin-tb ect-padding-tb'>暂无数据</p>");
+                        }
+                        obj.closest("li").remove();
+                    }
+                }
+                else{
+                    alert("删除失败");
+                }
+            });
+            return false;
+   		});
+    })
+</script> 
+</body>
+</html>

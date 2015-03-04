@@ -2,16 +2,15 @@
 class SiteController extends WapController{
 	public function actionIndex(){
 
-		$ss=array(
-            'd'=>'ddddddddddddd',
-            'f'=>'ffffffffffffff'
-
-        );
-        var_dump(Yii::app());
-        $this->render('/index',array('pages'=>$ss));
-
-
 		
+
+        //var_dump(Yii::app());
+
+        $this->render('/index');
+
+        die;
+
+		/*
 		if(Yii::app()->user->isGuest){
 			$this->redirect(array('site/login'));
 		}else{
@@ -26,6 +25,7 @@ class SiteController extends WapController{
 			$this->render('/index',array('page'=>$page));
 			
 		}
+		*/
 	}
 	
 		

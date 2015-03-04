@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<title>ECSHOP模板堂 - Powered by ECTouch.cn 触屏版</title>
+<link href="/themes/default/images/touch-icon.png" rel="apple-touch-icon-precomposed" />
+<link href="/themes/default/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="style/css/ectouch_shangchuang.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="style/js/jquery.min.js" ></script> 
+<script type="text/javascript" src="style/js/jquery.json.js" ></script> 
+<script type="text/javascript" src="style/js/common.js"></script> 
+<script type="text/javascript" src="style/js/jquery.more.js"></script>
+<script type="text/javascript" src="style/js/utils.js" ></script>
+<script type="text/javascript" src="style/js/TouchSlide.js"></script>
+<script type="text/javascript" src="style/js/ectouch.js"></script>
+</head>
+
+<body><div id="page" style="right: 0px; left: 0px; display: block;">
+  <header id="header" style="z-index:1">
+    <div class="header_l"> <a class="ico_10" onclick="javascript:history.go(-1)"> 返回 </a></div>
+    <div id="search_box2" >
+      <div class="search_box" >
+        <form method="post" action="/index.php?m=default&c=category&a=index" name="searchForm" id="searchForm_id">
+          <input placeholder="请输入商品名称" name="keywords" type="text" id="keywordBox" />
+          <button class="ico_07" type="submit" onclick="return check('keywordBox')"> </button>
+        </form>
+      </div>
+    </div>
+    <div class="header_r header_search"> <a class="switchBtn switchBtn-album" href="javascript:void(0);"  onclick="changeCl(this)" style="opacity: 1;"> 切换 </a> </div>
+  </header>
+  <div class="filter" style="position:static; top:0px; width:100%;">
+  <form method="GET" class="sort" name="listform" action="/index.php?m=default&c=category&a=index">
+    <ul class="filter-inner">
+      <li class="filter-cur"> <a href="/index.php?m=default&c=Category&a=index&id=4&display=&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=goods_id&order=DESC&keywords=&type=#goods_list">综合</a> </li>
+	  
+      <li class=""> <a href="/index.php?m=default&c=category&a=index&id=4&display=&brand=0&price_min=0&price_max=0&filter_attr=0&page=&sort=click_count&order=DESC&keywords=&type=#goods_list">人气<i class="f-ico-arrow-d"></i></a> </li>
+      <li class=""> <a href="/index.php?m=default&c=category&a=index&id=4&display=&brand=0&price_min=0&price_max=0&filter_attr=0&page=&sort=sales_volume&order=DESC&keywords=&type=#goods_list">销量</a></li>
+      <li class=""> <a href="/index.php?m=default&c=Category&a=index&id=4&display=&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=shop_price&order=ASC&keywords=&type=#goods_list">价格 
+	  <span>  
+	  <i class="f-ico-triangle-mt "></i> 
+	  <i class="f-ico-triangle-mb "></i> </span> </a> </li>
+      <li class="filter-navBtn"><a href="javascript:;" class="j_filterBtn disabled" onclick="mtShowMenu()">筛选</a></li>    </ul>
+    <input type="hidden" name="category" value="Array" />
+    <input type="hidden" name="display" value="" id="display" />
+    <input type="hidden" name="brand" value="0" />
+    <input type="hidden" name="price_min" value="0" />
+    <input type="hidden" name="price_max" value="0" />
+    <input type="hidden" name="filter_attr" value="0" />
+    <input type="hidden" name="page" value="1" />
+    <input type="hidden" name="sort" value="goods_id" />
+    <input type="hidden" name="order" value="DESC" />
+    <input type="hidden" name="type" value="" />
+    <input type="hidden" name="keywords" value="" />
+  </form>
+</div>
+
+  <div class="srp flex-f-row  album" id="J_ItemList" style="opacity:1;"> 
+    <div class="product flex_in single_item">
+      <div class="pro-inner"></div>
+    </div>
+
+
+<div id="more_element_1" class="product flex_in single_item">
+<div class="pro-inner">
+<div class="proImg-wrap">
+<a href="/index.php?m=default&c=goods&a=index&id=580">
+<img alt="ECSHOP模板堂顺风优选2015最新旗舰版+团购" src="http://upfile.ecmoban.com/images/201501/thumb_img/580_thumb_G_1421695475742.png">
+</a>
+</div>
+<div class="proInfo-wrap">
+<div class="proTitle">
+<a href="/index.php?m=default&c=goods&a=index&id=580">ECSHOP模板堂顺风优选2015最新旗舰版+团购</a>
+</div>
+<div class="proSKU"></div>
+<div class="proPrice">
+<em> ￥5500元 </em>
+</div>
+<div class="proService">
+<del>￥0元</del>
+</div>
+<div class="proSales">
+月销:
+<em>13</em>
+</div>
+<div class="proIcons"> </div>
+</div>
+</div>
+</div>
+
+
+<div id="more_element_2" class="product flex_in single_item">
+<div class="pro-inner">
+<div class="proImg-wrap">
+<a href="/index.php?m=default&c=goods&a=index&id=570">
+<img alt="ECSHOP模板堂聚美优品2015最强旗舰版全网首发+团购" src="http://upfile.ecmoban.com/images/201501/thumb_img/570_thumb_G_1420308575277.png">
+</a>
+</div>
+<div class="proInfo-wrap">
+<div class="proTitle">
+<a href="/index.php?m=default&c=goods&a=index&id=570">ECSHOP模板堂聚美优品2015最强旗舰版全网首发+团购</a>
+</div>
+<div class="proSKU"></div>
+<div class="proPrice">
+<em> ￥6000元 </em>
+</div>
+<div class="proService">
+<del>￥7200元</del>
+</div>
+<div class="proSales">
+月销:
+<em>0</em>
+</div>
+<div class="proIcons"> </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <a href="javascript:;" class="get_more"></a>
+  </div>
+  
+  
+  <div id="content" class="footer mr-t20">
+  <div class="in">
+    <div class="search_box">
+      <form method="post" action="/index.php?m=default&c=category&a=index" name="searchForm" id="searchForm_id">
+        <input name="keywords" type="text" id="keywordfoot" />
+        <button class="ico_07" type="submit" value="搜索" onclick="return check('keywordfoot')"> </button>
+      </form>
+    </div>
+    <a href="./" class="homeBtn"> <span class="ico_05"> </span> </a> <a href="#top" class="gotop"> <span class="ico_06"> </span> <p> TOP </p>
+    </a>
+  </div>
+  <p class="link region"> <a href="http://itunes.apple.com/cn/app/ecshop-mo-ban-tang/id773051406?ls=1&mt=8"> 苹果客户端 </a> <a class="http://download.ecmoban.com/app/ecmoban.apk"> Android客户端 </a> <a href="http://www.ecmoban.com/?pc"> 电脑版 </a> </p>
+  <p class="region"> 
+     
+    &copy; 2005-2015 ECSHOP模板堂 版权所有，并保留所有权利。 </p>
+  <div class="favLink region"> <a href="http://www.ecmoban.com"> powered by ecmoban </a> </div>
+</div>
+
+
+<link href="style/css/global_nav.css?v=20140408" type="text/css" rel="stylesheet"/>
+
+<div class="global-nav">
+    <div class="global-nav__nav-wrap">
+        <div class="global-nav__nav-item">
+            <a href="./" class="global-nav__nav-link">
+                <i class="global-nav__iconfont global-nav__icon-index">&#xf0001;</i>
+                <span class="global-nav__nav-tit">首页</span>
+            </a>
+        </div>
+        <div class="global-nav__nav-item">
+            <a href="/index.php?m=default&c=category&a=all" class="global-nav__nav-link">
+                <i class="global-nav__iconfont global-nav__icon-category">&#xf0002;</i>
+                <span class="global-nav__nav-tit">分类</span>
+            </a>
+        </div>
+        <div class="global-nav__nav-item">
+            <a href="javascript:get_search_box();" class="global-nav__nav-link">
+                <i class="global-nav__iconfont global-nav__icon-search">&#xf0003;</i>
+                <span class="global-nav__nav-tit">搜索</span>
+            </a>
+        </div>
+        <div class="global-nav__nav-item">
+            <a href="/index.php?m=default&c=flow&a=cart" class="global-nav__nav-link">
+                <i class="global-nav__iconfont global-nav__icon-shop-cart">&#xf0004;</i>
+                <span class="global-nav__nav-tit">购物车</span>
+                <span class="global-nav__nav-shop-cart-num" id="carId">0</span>
+            </a>
+        </div>
+        <div class="global-nav__nav-item">
+            <a href="/index.php?m=default&c=user&a=index" class="global-nav__nav-link">
+                <i class="global-nav__iconfont global-nav__icon-my-yhd">&#xf0005;</i>
+                <span class="global-nav__nav-tit">用户中心</span>
+            </a>
+        </div>
+    </div>
+    <div class="global-nav__operate-wrap">
+        <span class="global-nav__yhd-logo"></span>
+        <span class="global-nav__operate-cart-num" id="globalId">0</span>
+    </div>
+</div>
+
+<script type="text/javascript" src="style/js/zepto.min.js?v=20140408"></script>
+<script type="text/javascript">
+Zepto(function($){
+   var $nav = $('.global-nav'), $btnLogo = $('.global-nav__operate-wrap');
+   //点击箭头，显示隐藏导航
+   $btnLogo.on('click',function(){
+     if($btnLogo.parent().hasClass('global-nav--current')){
+       navHide();
+     }else{
+       navShow();
+     }
+   });
+
+   var navShow = function(){
+     $nav.addClass('global-nav--current');
+   }
+
+   var navHide = function(){
+     $nav.removeClass('global-nav--current');
+   }
+   
+   $(window).on("scroll", function() {
+		if($nav.hasClass('global-nav--current')){
+			navHide();
+		}
+	});
+})
+function get_search_box(){
+	try{
+		document.getElementById('get_search_box').click();
+	}catch(err){
+		document.getElementById('keywordfoot').focus();
+ 	}
+}
+</script></div>
+
+
+<div id="nav" class="nav" style="right:-275px;">
+  <form class="hold-height" action="/index.php?m=default&c=category&a=index&id=4" method="post">
+    <div class="attrExtra">
+      <button class="attrExtra-submit" type="submit">确定</button>
+      <button class="attrExtra-cancel" type="button"  onclick="mtShowMenu()">取消</button>
+    </div>
+    <div class="attrs attr-fix" style="overflow: auto;height: 100%"> 
+       
+       
+      
+       
+      
+            <div class="attr brandAttr">
+        <div class="attrKey">价格</div>
+        <div class="attrValues">
+          <ul class="av-collapse filter_list">
+             
+                        <li class="av-selected"> 
+               
+              <a href="javascript:void(0);" data="0|0">全部</a></li>
+             
+                        <li> 
+               
+              <a href="javascript:void(0);" data="700|1600">700&nbsp;-&nbsp;1600</a></li>
+             
+                        <li> 
+               
+              <a href="javascript:void(0);" data="1600|2500">1600&nbsp;-&nbsp;2500</a></li>
+             
+                        <li> 
+               
+              <a href="javascript:void(0);" data="2500|3400">2500&nbsp;-&nbsp;3400</a></li>
+             
+                        <li> 
+               
+              <a href="javascript:void(0);" data="3400|4300">3400&nbsp;-&nbsp;4300</a></li>
+             
+                        <li> 
+               
+              <a href="javascript:void(0);" data="4300|5200">4300&nbsp;-&nbsp;5200</a></li>
+             
+                        <li> 
+               
+              <a href="javascript:void(0);" data="5200|6100">5200&nbsp;-&nbsp;6100</a></li>
+             
+                        <li> 
+               
+              <a href="javascript:void(0);" data="6100|7000">6100&nbsp;-&nbsp;7000</a></li>
+                        <input type="hidden" name="price_min" value="0" />
+            <input type="hidden" name="price_max" value="0" />
+          </ul>
+          <div class="av-options"><a class="j_More avo-more avo-more-down" href="javascript:void(0);">查看更多<i></i></a> </div>
+        </div>
+      </div>
+       
+      
+            <div class="attr brandAttr">
+        <div class="attrKey">主题</div>
+        <div class="attrValues">
+          <ul class="av-collapse filter_list">
+             
+                        <li class="av-selected filter_attr"> 
+               
+              <a href="javascript:void(0);" data="0">全部</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="218">古典雅致</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="226">可爱温馨</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="269">时尚简约</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="222">潮流酷炫</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="230">节日庆典</a></li>
+                      </ul>
+          <div class="av-options"><a class="j_More avo-more avo-more-down" href="javascript:void(0);">查看更多<i></i></a> </div>
+        </div>
+      </div>
+            <div class="attr brandAttr">
+        <div class="attrKey">色系</div>
+        <div class="attrValues">
+          <ul class="av-collapse filter_list">
+             
+                        <li class="av-selected filter_attr"> 
+               
+              <a href="javascript:void(0);" data="0">全部</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="268">多彩</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="381">橙色</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="547">白色</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="274">粉色</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="223">紫色</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="227">红色</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="235">绿色</a></li>
+             
+                        <li class="filter_attr"> 
+               
+              <a href="javascript:void(0);" data="219">黑色</a></li>
+                      </ul>
+          <div class="av-options"><a class="j_More avo-more avo-more-down" href="javascript:void(0);">查看更多<i></i></a> </div>
+        </div>
+      </div>
+            <input type="hidden" name="filter_attr" value="0"/>
+       
+       
+    </div>
+  </form>
+</div>
+<script type="text/javascript" src="style/js/jquery.more.js"></script>
+<script type="text/javascript">
+	//get_asynclist('/index.php?m=default&c=category&a=asynclist&id=4&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=goods_id&order=DESC&keywords=&type=' , '/themes/default/images/loader.gif');
+</script>
+</body>
+</html>

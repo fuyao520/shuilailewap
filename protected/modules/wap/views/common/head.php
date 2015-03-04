@@ -1,18 +1,20 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>会员中心-<?php echo Yii::app()->params['basic']['sitename']; ?></title>
-<link href="<?php echo Yii::app()->params['basic']['cssurl']; ?>user/style/base.css?4" rel="stylesheet" type="text/css" />
-<link href="<?php echo Yii::app()->params['basic']['cssurl']; ?>user/style/default.css?4" rel="stylesheet" type="text/css" />
-<link href="<?php echo Yii::app()->params['basic']['cssurl']; ?>default/style/mall.css?4" rel="stylesheet" type="text/css" />
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>lib/js/jquery-1.7.1.min.js"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>default/js/common.js?2"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>user/js/user.js?5"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>default/js/mall.js?5"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>lib/js/common.js"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>lib/js/jquery.external.js"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>lib/clud_zoom/cloud_zoom.1.0.2.js"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>lib/artDialog4.1.7/artDialog.js?skin=idialog"></script>
-<script src="<?php echo Yii::app()->params['basic']['cssurl']; ?>lib/My97DatePicker/WdatePicker.js" ></script>
-</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>ECSHOP模板堂 - Powered by ECTouch.cn 触屏版</title>
+    <link href="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/images/touch-icon.png" rel="apple-touch-icon-precomposed" />
+    <link href="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/style/ectouch_shangchuang.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/jquery.min.js" ></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/jquery.json.js" ></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/common.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/jquery.more.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/utils.js" ></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/TouchSlide.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/ectouch.js"></script>
+    <script type="text/javascript" src="<?php echo Yii::app()->params['basic']['cssurl'];?>wap/js/jquery.mmenu.js"></script>

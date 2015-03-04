@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>ECSHOP模板堂 - Powered by ECTouch.cn 触屏版</title>
+<link rel="stylesheet" href="style/css/bootstrap.min.css">
+<link rel="stylesheet" href="style/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/css/ectouch.css">
+<link rel="stylesheet" href="style/css/user.css">
+<link rel="stylesheet" href="style/css/photoswipe.css">
+</head>
+
+<body>
+<div class="con">
+<div class="ect-bg">
+  <header class="ect-header ect-margin-tb ect-margin-lr text-center ect-bg icon-write"> <a href="javascript:history.go(-1)" class="pull-left ect-icon ect-icon1 ect-icon-history"></a> <span>个人资料</span> <a href="javascript:;" onClick="openMune()" class="pull-right ect-icon ect-icon1 ect-icon-mune"></a></header>
+  <nav class="ect-nav ect-nav-list" style="display:none;">
+    <ul class="ect-diaplay-box text-center">
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=index&a=index"><i class="ect-icon ect-icon-home"></i>首页</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=category&a=all"><i class="ect-icon ect-icon-cate"></i>分类</a></li>
+      <li class="ect-box-flex"><a href="javascript:openSearch();"><i class="ect-icon ect-icon-search"></i>搜索</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=flow&a=cart"><i class="ect-icon ect-icon-flow"></i>购物车</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=user&a=index"><i class="ect-icon ect-icon-user"></i>个人中心</a></li>
+    </ul>
+  </nav>
+</div>
+ 
+<script type="text/javascript">
+	  		var bonus_sn_empty = "请输入您要添加的红包号码！";
+	  		var bonus_sn_error = "您输入的红包号码格式不正确！";
+	  		var email_empty = "请输入您的电子邮件地址！";
+	  		var email_error = "您输入的电子邮件地址格式不正确！";
+	  		var old_password_empty = "请输入您的原密码！";
+	  		var new_password_empty = "请输入您的新密码！";
+	  		var confirm_password_empty = "请输入您的确认密码！";
+	  		var both_password_error = "您现两次输入的密码不一致！";
+	  		var msg_blank = "不能为空";
+	  		var no_select_question = "- 您没有完成密码提示问题的操作";
+	  	</script>
+<form name="formEdit" action="/index.php?m=default&c=user&a=profile" method="post" onSubmit="return userEdit()">
+  <section class="flow-consignee ect-bg-colorf">
+    <ul>
+      <li>
+        <div class="input-text"><b class="pull-left">电子邮件：</b><span>
+          <input name="email" type="text" placeholder="请输入电子邮箱"  value="799587749@qq.com">
+          </span></div>
+      </li>
+       
+            <li>
+        <div class="input-text"><b class="pull-left">手机:</b><span>
+          <input name="extend_field5" type="text" value="" placeholder="手机">
+          </span></div>
+      </li>
+      </li>
+       
+       
+            <li>
+        <div class="input-text"><b class="pull-left">公司名称:</b><span>
+          <input name="extend_field105" type="text" value="" placeholder="公司名称">
+          </span></div>
+      </li>
+      </li>
+       
+       
+            <li>
+        <div class="input-text"><b class="pull-left">公司地址:</b><span>
+          <input name="extend_field106" type="text" value="" placeholder="公司地址">
+          </span></div>
+      </li>
+      </li>
+       
+       
+            <li>
+        <div class="input-text"><b class="pull-left">公司电话:</b><span>
+          <input name="extend_field107" type="text" value="" placeholder="公司电话">
+          </span></div>
+      </li>
+      </li>
+       
+       
+            <li>
+        <div class="input-text"><b class="pull-left">昵称:</b><span>
+          <input name="extend_field108" type="text" value="" placeholder="昵称">
+          </span></div>
+      </li>
+      </li>
+       
+          </ul>
+  </section>
+  <input name="act" type="hidden" value="profile" />
+  <div class="two-btn ect-padding-tb ect-padding-lr ect-margin-tb text-center">
+    <input name="submit" type="submit" value="确认修改" class="btn btn-info" />
+  </div>
+</form>
+</div>
+<div class="search" style="display:none;">
+  <div class="ect-bg">
+    <header class="ect-header ect-margin-tb ect-margin-lr text-center"><span>搜索</span><a href="javascript:;" onClick="closeSearch();"><i class="icon-close pull-right"></i></a></header>
+  </div>
+  <div class="ect-padding-lr">
+     <form action="/index.php?m=default&c=category&a=index"  method="post" id="searchForm" name="searchForm">
+      <div class="input-search"> <span>
+        <input name="keywords" type="search" placeholder="请输入搜索关键词！" id="keywordBox">
+        </span>
+        <button type="submit" value="搜索" onclick="return check('keywordBox')"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </form>
+        <div class="hot-search">
+      <p>
+      <h4 class="title"><b>热门搜索：</b></h4>
+      </p>
+       
+      <a href="/index.php?m=default&c=category&a=index&keywords=%E7%B1%B3%E5%A5%87%E6%A8%A1%E6%9D%BF+%E7%B1%B3%E5%A5%87%E7%AE%80%E6%B4%81%E7%89%88%E6%A8%A1%E6%9D%BF+ECSHOP%E6%A8%A1%E6%9D%BF%E5%A0%82%EF%BC%88www.ecmoban.com%EF%BC%89%E4%B8%93%E4%B8%9AECSHOP%E6%A8%A1%E6%9D%BF%E5%88%B6%E4%BD%9C+ECSHOP%E6%A8%A1%E6%9D%BF%E5%AE%9A%E5%88%B6_ECSHOP%E6%A8%A1%E6%9D%BF%E4%BF%AE%E6%94%B9_ECSHOP%E6%A8%A1%E6%9D%BF%E5%87%BA%E5%94%AE_ECSHOP%E6%A8%A1%E6%9D%BF%E6%A1%88%E4%BE%8B">米奇模板 米奇简洁版模板 ECSHOP模板堂（www.ecmoban.com）专业ECSHOP模板制作 ECSHOP模板定制_ECSHOP模板修改_ECSHOP模板出售_ECSHOP模板案例</a> 
+       
+    </div>
+     
+  </div>
+</div>
+ <a id="scrollUp" href="#top" style="position: fixed; z-index: 10;"><i class="fa fa-angle-up"></i></a>
+<style>
+#scrollUp {
+	border-radius:100%;
+	background-color: #777;
+	color: #eee;
+	font-size: 40px;
+	line-height: 1;text-align: center;text-decoration: none;bottom: 1em;right: 10px;overflow: hidden;width: 46px;
+	height: 46px;
+	border: none;
+	opacity: 0.6;
+}
+</style>
+<script type="text/javascript" src="style/js/jquery.min.js" ></script> 
+<script type="text/javascript" src="style/js/jquery.json.js" ></script> 
+<script type="text/javascript" src="style/js/common.js"></script> 
+<script type="text/javascript" src="style/js/jquery.more.js"></script> 
+<script type="text/javascript" src="style/js/utils.js" ></script> 
+<script src="style/js/ectouch.js"></script> 
+<script src="style/js/TouchSlide.js"></script> 
+<script src="style/js/simple-inheritance.min.js"></script> 
+<script src="style/js/code-photoswipe-1.0.11.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/js/jquery.scrollUp.min.js"></script> 
+<script type="text/javascript" src="style/js/validform.js" ></script> 
+
+<script language="javascript">
+	/*banner滚动图片*/
+		TouchSlide({
+			slideCell : "#focus",
+			titCell : ".hd ul", // 开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell : ".bd ul",
+			effect : "left",
+			autoPlay : true, // 自动播放
+			autoPage : true, // 自动分页
+			switchLoad : "_src" // 切换加载，真实图片路径为"_src"
+		});
+	/*弹出评论层并隐藏其他层*/
+	function openSearch(){
+		if($(".con").is(":visible")){
+			$(".con").hide();	
+			$(".search").show();
+		}
+	}
+	function closeSearch(){
+		if($(".con").is(":hidden")){
+			$(".con").show();	
+			$(".search").hide();
+		}
+	}
+</script> 
+</body></html>

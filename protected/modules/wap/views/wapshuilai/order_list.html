@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>ECSHOP模板堂 - Powered by ECTouch.cn 触屏版</title>
+<link rel="stylesheet" href="style/css/bootstrap.min.css">
+<link rel="stylesheet" href="style/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/css/ectouch.css">
+<link rel="stylesheet" href="style/css/user.css">
+<link rel="stylesheet" href="style/css/photoswipe.css">
+</head>
+
+<body>
+<div class="con">
+<div class="ect-bg">
+  <header class="ect-header ect-margin-tb ect-margin-lr text-center ect-bg icon-write"> <a href="javascript:history.go(-1)" class="pull-left ect-icon ect-icon1 ect-icon-history"></a> <span>全部订单</span> <a href="javascript:;" onClick="openMune()" class="pull-right ect-icon ect-icon1 ect-icon-mune"></a></header>
+  <nav class="ect-nav ect-nav-list" style="display:none;">
+    <ul class="ect-diaplay-box text-center">
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=index&a=index"><i class="ect-icon ect-icon-home"></i>首页</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=category&a=all"><i class="ect-icon ect-icon-cate"></i>分类</a></li>
+      <li class="ect-box-flex"><a href="javascript:openSearch();"><i class="ect-icon ect-icon-search"></i>搜索</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=flow&a=cart"><i class="ect-icon ect-icon-flow"></i>购物车</a></li>
+      <li class="ect-box-flex"><a href="/index.php?m=default&c=user&a=index"><i class="ect-icon ect-icon-user"></i>个人中心</a></li>
+    </ul>
+  </nav>
+</div>
+<div class="ect-pro-list user-order" style="border-bottom:none;">
+    <ul id="J_ItemList">
+       <li class="single_item"></li>
+
+
+<li id="more_element_1" class="single_item">
+<a href="/index.php?m=default&c=user&a=order_detail&order_id=8040">
+<img class="pull-left" src="http://upfile.ecmoban.com/images/201501/thumb_img/580_thumb_G_1421695475742.png">
+<dl>
+<dt>
+<h4 class="title">订单号：2015021098648</h4>
+</dt>
+<dd>订单状态：未确认,未付款,未发货</dd>
+<dd>
+订单总金额：
+<span class="ect-color">￥5500.00元</span>
+</dd>
+<dd>下单时间：2015-02-10 10:57:15</dd>
+</dl>
+<i class="pull-right fa fa-angle-right"></i>
+</a>
+</li>
+
+
+<li id="more_element_2" class="single_item">
+<a href="/index.php?m=default&c=user&a=order_detail&order_id=8039">
+<img class="pull-left" src="http://upfile.ecmoban.com/images/201409/thumb_img/408_thumb_G_1412040867989.png">
+<dl>
+<dt>
+<h4 class="title">订单号：2015021028682</h4>
+</dt>
+<dd>订单状态：未确认,未付款,未发货</dd>
+<dd>
+订单总金额：
+<span class="ect-color">￥196000.00元</span>
+</dd>
+<dd>下单时间：2015-02-10 10:51:29</dd>
+</dl>
+<i class="pull-right fa fa-angle-right"></i>
+</a>
+</li>
+
+
+
+
+       <a href="javascript:;" style="text-align:center" class="get_more"></a>
+    </ul>
+</div>
+</div>
+<div class="search" style="display:none;">
+  <div class="ect-bg">
+    <header class="ect-header ect-margin-tb ect-margin-lr text-center"><span>搜索</span><a href="javascript:;" onClick="closeSearch();"><i class="icon-close pull-right"></i></a></header>
+  </div>
+  <div class="ect-padding-lr">
+     <form action="/index.php?m=default&c=category&a=index"  method="post" id="searchForm" name="searchForm">
+      <div class="input-search"> <span>
+        <input name="keywords" type="search" placeholder="请输入搜索关键词！" id="keywordBox">
+        </span>
+        <button type="submit" value="搜索" onclick="return check('keywordBox')"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </form>
+        <div class="hot-search">
+      <p>
+      <h4 class="title"><b>热门搜索：</b></h4>
+      </p>
+       
+      <a href="/index.php?m=default&c=category&a=index&keywords=%E7%B1%B3%E5%A5%87%E6%A8%A1%E6%9D%BF+%E7%B1%B3%E5%A5%87%E7%AE%80%E6%B4%81%E7%89%88%E6%A8%A1%E6%9D%BF+ECSHOP%E6%A8%A1%E6%9D%BF%E5%A0%82%EF%BC%88www.ecmoban.com%EF%BC%89%E4%B8%93%E4%B8%9AECSHOP%E6%A8%A1%E6%9D%BF%E5%88%B6%E4%BD%9C+ECSHOP%E6%A8%A1%E6%9D%BF%E5%AE%9A%E5%88%B6_ECSHOP%E6%A8%A1%E6%9D%BF%E4%BF%AE%E6%94%B9_ECSHOP%E6%A8%A1%E6%9D%BF%E5%87%BA%E5%94%AE_ECSHOP%E6%A8%A1%E6%9D%BF%E6%A1%88%E4%BE%8B">米奇模板 米奇简洁版模板 ECSHOP模板堂（www.ecmoban.com）专业ECSHOP模板制作 ECSHOP模板定制_ECSHOP模板修改_ECSHOP模板出售_ECSHOP模板案例</a> 
+       
+    </div>
+     
+  </div>
+</div>
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 10;"><i class="fa fa-angle-up"></i></a>
+<style>
+#scrollUp {
+	border-radius:100%;
+	background-color: #777;
+	color: #eee;
+	font-size: 40px;
+	line-height: 1;text-align: center;text-decoration: none;bottom: 1em;right: 10px;overflow: hidden;width: 46px;
+	height: 46px;
+	border: none;
+	opacity: 0.6;
+}
+</style>
+
+
+<script type="text/javascript" src="style/js/jquery.min.js" ></script> 
+<script type="text/javascript" src="style/js/jquery.json.js" ></script> 
+<script type="text/javascript" src="style/js/common.js"></script> 
+<script type="text/javascript" src="style/js/jquery.more.js"></script> 
+<script type="text/javascript" src="style/js/utils.js" ></script> 
+<script src="style/js/ectouch.js"></script> 
+<script src="style/js/TouchSlide.js"></script> 
+<script src="style/js/simple-inheritance.min.js"></script> 
+<script src="style/js/code-photoswipe-1.0.11.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/js/jquery.scrollUp.min.js"></script> 
+<script type="text/javascript" src="style/js/validform.js" ></script> 
+
+<script language="javascript">
+	/*banner滚动图片*/
+		TouchSlide({
+			slideCell : "#focus",
+			titCell : ".hd ul", // 开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell : ".bd ul",
+			effect : "left",
+			autoPlay : true, // 自动播放
+			autoPage : true, // 自动分页
+			switchLoad : "_src" // 切换加载，真实图片路径为"_src"
+		});
+	/*弹出评论层并隐藏其他层*/
+	function openSearch(){
+		if($(".con").is(":visible")){
+			$(".con").hide();	
+			$(".search").show();
+		}
+	}
+	function closeSearch(){
+		if($(".con").is(":hidden")){
+			$(".con").show();	
+			$(".search").hide();
+		}
+	}
+</script> 
+<footer class="logo"><img src="/themes/default/images/logo.png" width="176" height="60"></footer>
+<script type="text/javascript">
+    var from_order_empty = "请选择要合并的从订单";
+    var to_order_empty = "请选择要合并的主订单";
+    var order_same = "主订单和从订单相同，请重新选择";
+    var confirm_merge = "您确实要合并这两个订单吗？";
+//get_asynclist('/index.php?m=default&c=user&a=async_order_list&pay=1' , '/themes/default/images/loader.gif');
+</script> 
+</body></html>

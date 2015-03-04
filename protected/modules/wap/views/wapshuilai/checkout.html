@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>ECSHOP模板堂 - Powered by ECTouch.cn 触屏版</title>
+<link rel="stylesheet" href="style/css/bootstrap.min.css">
+<link rel="stylesheet" href="style/css/font-awesome.min.css">
+<link rel="stylesheet" href="style/css/ectouch.css">
+<link rel="stylesheet" href="style/css/photoswipe.css">
+</head><body>
+
+<div class="con">
+  <div class="ect-bg">
+    <header class="ect-header ect-margin-tb ect-margin-lr text-center ect-bg icon-write"> <a href="javascript:history.go(-1)" class="pull-left ect-icon ect-icon1 ect-icon-history"></a> <span>订单确认</span> <a href="javascript:;" onClick="openMune()" class="pull-right ect-icon ect-icon1 ect-icon-mune"></a></header>
+    <nav class="ect-nav ect-nav-list" style="display:none;"> <ul class="ect-diaplay-box text-center">
+  <li class="ect-box-flex"><a href="/index.php?m=default&c=index&a=index"><i class="ect-icon ect-icon-home"></i>首页</a></li>
+  <li class="ect-box-flex"><a href="/index.php?m=default&c=category&a=all"><i class="ect-icon ect-icon-cate"></i>分类</a></li>
+  <li class="ect-box-flex"><a href="javascript:openSearch();"><i class="ect-icon ect-icon-search"></i>搜索</a></li>
+  <li class="ect-box-flex"><a href="/index.php?m=default&c=flow&a=cart"><i class="ect-icon ect-icon-flow"></i>购物车</a></li>
+  <li class="ect-box-flex"><a href="/index.php?m=default&c=user&a=index"><i class="ect-icon ect-icon-user"></i>用户中心</a></li>
+</ul>
+ </nav>
+  </div>
+  <div class="flow-checkout">
+    <form action="/index.php?m=default&c=flow&a=done" method="post" name="theForm" id="theForm" onSubmit="return checkOrderForm(this)">
+      <script type="text/javascript">
+        var flow_no_payment = "您必须选定一个支付方式。";
+        var flow_no_shipping = "您必须选定一个配送方式。";
+        </script><a href="/index.php?m=default&c=flow&a=consignee_list">
+      <section class="ect-margin-tb ect-padding-lr ect-padding-tb checkout-add">
+          <label for="addressId">
+          <p class="title">发几 <span>136454557815</span></p>
+          <p>士大夫</p>
+          <i class="fa fa-angle-right"></i>
+          </label>
+        </section>
+      </a>
+      <section class="ect-margin-tb ect-padding-lr checkout-select" id="accordion"> 
+         
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        <p><b>配送方式</b><span class="label ect-bg-colory">必填</span></p>
+        <i class="fa fa-angle-down"></i></a>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <ul class="ect-radio">
+                        <li>
+              <input name="shipping" type="radio" id="shipping_1" value="1"  checked="true" supportCod="1" insure="0" onclick="selectShipping(this)">
+              <label for="shipping_1">圆通速递 [￥0.00元]<i></i></label>
+            </li>
+                      </ul>
+        </div>
+         
+         
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        <p><b>支付方式</b><span class="label ect-bg-colory">必填</span></p>
+        <i class="fa fa-angle-down"></i></a>
+        <div id="collapseTwo" class="panel-collapse collapse in">
+          <ul class="ect-radio">
+                        <li>
+              <input name="payment" type="radio" id="payment_1" value="1"  isCod="0" onclick="selectPayment(this)"  style="vertical-align:middle">
+              <label for="payment_1">余额支付 [￥0.00元]<i></i></label>
+            </li>
+                        <li>
+              <input name="payment" type="radio" id="payment_2" value="2" checked isCod="0" onclick="selectPayment(this)"  style="vertical-align:middle">
+              <label for="payment_2">支付宝（手机版） [￥0.00元]<i></i></label>
+            </li>
+                      </ul>
+        </div>
+         
+         
+        
+      </section>
+            
+      <section class="ect-margin-tb ect-padding-lr checkout-select"> 
+         
+        
+         
+        
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+        <p><b> 订单附言 </b></p>
+        <i class="fa fa-angle-down"></i> </a>
+        <div id="collapseFive" class="panel-collapse collapse in">
+          <input name="" type="text" class="fuyan" placeholder="请输入订单附言">
+        </div>
+      </section>
+      <section class="ect-margin-tb ect-margin-bottom0 ect-padding-lr checkout-select checkout-pro-list">
+        <p><b>商品列表</b><span class="label ect-bg-colory"><a href="/index.php?m=default&c=flow&a=index" class="ect-colorf">修改</a></span></p>
+        <ul>
+                    <li>
+            <dl>
+              <dt class="pull-left"> 
+                 
+                <a href="/index.php?m=default&c=goods&a=index&id=408" target="_blank" >大京东——最佳行业解决方案 最新升级版2.0</a> 
+                 
+                 
+                 
+              </dt>
+              <dd class="pull-left list-num">x 2</dd>
+              <dd class="pull-right">￥196000.00元</dd>
+            </dl>
+          </li>
+                  </ul>
+        
+<div class="ect-padding-tb text-right" id="ECS_ORDERTOTAL">
+   
+  商品总价:
+  <b class="ect-colory">￥196000.00元</b>
+  <br />
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  应付款金额: <b class="ect-colory">￥196000.00元</b><br />
+   
+   
+</div>
+ </section>
+      <div class="ect-padding-lr ect-padding-tb ect-margin-tb">
+        <input type="submit" name="submit" value="订单提交" class="btn btn-info ect-btn-info ect-colorf"/>
+        <input type="hidden" name="step" value="done" />
+      </div>
+    </form>
+  </div>
+</div>
+
+ 
+<div class="search" style="display:none;">
+  <div class="ect-bg">
+    <header class="ect-header ect-margin-tb ect-margin-lr text-center"><span>搜索</span><a href="javascript:;" onClick="closeSearch();"><i class="icon-close pull-right"></i></a></header>
+  </div>
+  <div class="ect-padding-lr">
+     <form action="/index.php?m=default&c=category&a=index"  method="post" id="searchForm" name="searchForm">
+      <div class="input-search"> <span>
+        <input name="keywords" type="search" placeholder="请输入搜索关键词！" id="keywordBox">
+        </span>
+        <button type="submit" value="搜索" onclick="return check('keywordBox')"><i class="glyphicon glyphicon-search"></i></button>
+      </div>
+    </form>
+        <div class="hot-search">
+      <p>
+      <h4 class="title"><b>热门搜索：</b></h4>
+      </p>
+       
+      <a href="/index.php?m=default&c=category&a=index&keywords=%E7%B1%B3%E5%A5%87%E6%A8%A1%E6%9D%BF+%E7%B1%B3%E5%A5%87%E7%AE%80%E6%B4%81%E7%89%88%E6%A8%A1%E6%9D%BF+ECSHOP%E6%A8%A1%E6%9D%BF%E5%A0%82%EF%BC%88www.ecmoban.com%EF%BC%89%E4%B8%93%E4%B8%9AECSHOP%E6%A8%A1%E6%9D%BF%E5%88%B6%E4%BD%9C+ECSHOP%E6%A8%A1%E6%9D%BF%E5%AE%9A%E5%88%B6_ECSHOP%E6%A8%A1%E6%9D%BF%E4%BF%AE%E6%94%B9_ECSHOP%E6%A8%A1%E6%9D%BF%E5%87%BA%E5%94%AE_ECSHOP%E6%A8%A1%E6%9D%BF%E6%A1%88%E4%BE%8B">米奇模板 米奇简洁版模板 ECSHOP模板堂（www.ecmoban.com）专业ECSHOP模板制作 ECSHOP模板定制_ECSHOP模板修改_ECSHOP模板出售_ECSHOP模板案例</a> 
+       
+    </div>
+     
+  </div>
+</div>
+ 
+<a id="scrollUp" href="#top" style="position: fixed; z-index: 10;"><i class="fa fa-angle-up"></i></a>
+<style>
+#scrollUp {
+	border-radius:100%;
+	background-color: #777;
+	color: #eee;
+	font-size: 40px;
+	line-height: 1;text-align: center;text-decoration: none;bottom: 1em;right: 10px;overflow: hidden;width: 46px;
+	height: 46px;
+	border: none;
+	opacity: 0.6;
+}
+</style>
+
+<script type="text/javascript" src="style/js/jquery.min.js" ></script> 
+<script type="text/javascript" src="style/js/jquery.json.js" ></script> 
+<script type="text/javascript" src="style/js/common.js"></script> 
+<script type="text/javascript" src="style/js/jquery.more.js"></script> 
+<script type="text/javascript" src="style/js/utils.js" ></script> 
+<script src="style/js/ectouch.js"></script> 
+<script src="style/js/TouchSlide.js"></script> 
+<script src="style/js/simple-inheritance.min.js"></script> 
+<script src="style/js/code-photoswipe-1.0.11.min.js"></script> 
+<script src="style/js/bootstrap.min.js"></script> 
+<script src="style/js/jquery.scrollUp.min.js"></script> 
+<script type="text/javascript" src="style/js/validform.js" ></script> 
+
+<script language="javascript">
+	/*banner滚动图片*/
+		TouchSlide({
+			slideCell : "#focus",
+			titCell : ".hd ul", // 开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+			mainCell : ".bd ul",
+			effect : "left",
+			autoPlay : true, // 自动播放
+			autoPage : true, // 自动分页
+			switchLoad : "_src" // 切换加载，真实图片路径为"_src"
+		});
+	/*弹出评论层并隐藏其他层*/
+	function openSearch(){
+		if($(".con").is(":visible")){
+			$(".con").hide();	
+			$(".search").show();
+		}
+	}
+	function closeSearch(){
+		if($(".con").is(":hidden")){
+			$(".con").show();	
+			$(".search").hide();
+		}
+	}
+</script> 
+ 
+<script type="text/javascript" src="style/js/shopping_flow.js"></script>
+
+<script>
+function back_goods_number(id){
+ var goods_number = document.getElementById('goods_number'+id).value;
+  document.getElementById('back_number'+id).value = goods_number;
+}
+function change_goods_number(type, id)
+{
+  var goods_number = document.getElementById('goods_number'+id).value;
+  if(type != 2){back_goods_number(id)}
+  if(type == 1){goods_number--;}
+  if(type == 3){goods_number++;}
+  if(goods_number <=0 ){goods_number=1;}
+  if(!/^[0-9]*$/.test(goods_number)){goods_number = document.getElementById('back_number'+id).value;}
+  document.getElementById('goods_number'+id).value = goods_number;
+	$.post('/index.php?m=default&c=flow&a=ajax_update_cart', {
+		rec_id : id,goods_number : goods_number
+	}, function(data) {
+		change_goods_number_response(data,id);
+	}, 'json');  
+} 
+// 处理返回信息并显示
+function change_goods_number_response(result,id)
+{
+	if (result.error == 0){
+		var rec_id = result.rec_id;
+		$("#goods_number_"+rec_id).val(result.goods_number);
+		document.getElementById('total_number').innerHTML = result.total_number;//更新数量
+		document.getElementById('goods_subtotal').innerHTML = result.total_desc;//更新小计
+		if (document.getElementById('ECS_CARTINFO')){
+			//更新购物车数量
+			document.getElementById('ECS_CARTINFO').innerHTML = result.cart_info;
+		}
+	}else if (result.message != ''){
+		alert(result.message);
+		var goods_number = document.getElementById('back_number'+id).value;
+ 		document.getElementById('goods_number'+id).value = goods_number;
+	}                
+}
+
+	/*点击下拉手风琴效果*/
+	$('.collapse').collapse()
+	$(".checkout-select a").click(function(){
+		if(!$(this).hasClass("select")){
+			$(this).addClass("select");
+		}else{	
+			$(this).removeClass("select");
+		}
+	});
+	
+</script>
+
+</body>
+</html>
