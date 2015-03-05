@@ -6,7 +6,7 @@
 <div id="page">
     <header id="header" >
         <div class="header_l"> <a class="ico_02" href="#menu"> 菜单栏 </a> </div>
-        <h1> ECSHOP模板堂 </h1>
+        <h1>水来了</h1>
         <div class="header_r"> <a class="ico_01" href="/index.php?m=default&c=flow&a=cart"> 购物车 </a> </div>
     </header>
 </div>
@@ -38,9 +38,6 @@
         autoPage:true //自动分页
     });
 </script>
-
-
-
 
 <div id=content class="wrap">
 

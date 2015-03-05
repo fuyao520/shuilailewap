@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Yii Blog Demo',
+	'name'=>'Shui lai le',
 		
 	'theme'=>'default',	
 	
@@ -75,6 +75,7 @@ return array(
 				'post/<id:\d+>/<title:.*?>'=>'post/view',
 				'posts/<tag:.*?>'=>'post/index',
 				'admin2050'=>'admin/site/login',
+                'wap'=>'wap/site/index',
 				'map/?'=>'site/map',
 				'admin/site/login'=>'site/error',				
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
